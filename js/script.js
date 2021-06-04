@@ -40,7 +40,7 @@ let dialogue = document.getElementById('dialogue');
 let buttonLanch = document.getElementById('buttonLanch');
 
 function lanchDialogue(){
-    dialogue.innerHTML = "Vous venez juste de rentrer dans mon cul";
+    dialogue.innerHTML = "test";
     monsterName.innerHTML = " " + monster.name;
     monsterLevel.innerHTML = " " + monster.level;
     monsterLife.innerHTML =  " " + monster.life + "/100";
