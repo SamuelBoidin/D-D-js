@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>D&D</title>
+</head>
+<body>
+    <header>
+        <h1>Donjons & Dragons</h1>
+    </header>
+    <main>
+        <section class="creat">
+            <form>
+                <input id="name" type="text" placeholder="nom de votre personnage" maxlength="25"/>
+                <input id="button" type="button" value="Confirmer"/>
+            </form>
+            <h2 id="message"></h2>
+        </section>
+       <section class="characterCard">
+            <div class="heroCard">
+                <p>Nom:<span id="playerCharacter"></span></p>
+                <p>LVL:<span id="playerLevel"></span></p>
+                <p>PV:<span id="playerLife"></span></p>
+                <p>XP:<span id="playerExperience"></span></p>
+            </div>
+            <div class="dialogueCard">
+                <p id="dialogue"></p>
+            </div>
+            <div class="monsterCard">
+                <p>Nom:<span id="monsterName"></span></p>
+                <p>LVL:<span id="monsterLevel"></span></p>
+                <p>PV:<span id="monsterLife"></span></p>
+            </div>
+       </section>
+       <section class="lanchCombat">
+          <input id="buttonLanch" type="button" value="Commencer"/>
+       </section>
+       <section class="attack">
+           <form>
+               <label>10 points de dégâts</label><input id="firstAttack" type="button" value="Coup d'épée"/>
+               <label>6 points de dégâts</label><input id="secondAttack" type="button" value="Coup de bouclier"/>
+               <label>Vous rends 5 points de vie</label><input id="thirdAttack" type="button" value="Soin"/>
+               <label>"Fuyez pauvre fou"</label><input id="fourthAttack" type="button" value="Fuir"/>
+           </form>
+       </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

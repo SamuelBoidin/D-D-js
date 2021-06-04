@@ -1,0 +1,72 @@
+body {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content:center ;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.creat {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.characterCard {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.heroCard {
+    width: 10%;
+    border: 3px solid blue;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.monsterCard {
+    width: 10%;
+    border: 3px solid red;
+    border-radius: 15px;
+    padding: 15px 0 0 15px;
+
+}
+
+.dialogueCard {
+    width: 25%;
+    border: black 3px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.lanchCombat {
+    margin-top: 30px;
+
+}
+
+.attack {
+    margin-top: 20px;
+}
+
+.attack form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.attack form input {
+    margin: 6px 0 6px 0;
+}
