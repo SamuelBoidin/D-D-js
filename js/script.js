@@ -26,8 +26,8 @@ function onConfirm(){
     welcomeMessage.innerHTML = "Bienvenue dans Donjons & Dragons " + name.value + ", que l'aventure commence !";
     playerCharacter.innerHTML = " " + name.value;
     playerLevel.innerHTML = " " + player.level;
-    PlayerLife.innerHTML =  " " + player.life + "/40";
-    PlayerExperience.innerHTML = " " + player.experience + "/10";
+    playerLife.innerHTML =  " " + player.life + "/40";
+    playerExperience.innerHTML = " " + player.experience + "/10";
     nameOfPlayer.value = "";
 }
 
@@ -83,7 +83,6 @@ function sword(){
     }
     monsterLife.innerHTML =  " " + monster.life + "/100";
     dialogue.innerHTML = "Vous lui assenez un coup d'epée !";
-    return
 }
 
 function shield(){
