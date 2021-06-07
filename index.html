@@ -13,9 +13,9 @@
     </header>
     <main>
         <section class="creat">
-            <form>
+            <form action="">
                 <input id="name" type="text" placeholder="nom de votre personnage" maxlength="25"/>
-                <input id="button" type="button" value="Confirmer"/>
+                <input id="buttonLanch" type="button" value="Confirmer"/>
             </form>
             <h2 id="message"></h2>
         </section>
@@ -35,15 +35,11 @@
                 <p>PV:<span id="monsterLife"></span></p>
             </div>
        </section>
-       <section class="lanchCombat">
-          <input id="buttonLanch" type="button" value="Commencer"/>
-       </section>
-       <section class="attack">
+       <section class="attackList">
            <form>
-               <label>10 points de dégâts</label><input id="firstAttack" type="button" value="Coup d'épée"/>
-               <label>6 points de dégâts</label><input id="secondAttack" type="button" value="Coup de bouclier"/>
-               <label>Vous rends 5 points de vie</label><input id="thirdAttack" type="button" value="Soin"/>
-               <label>"Fuyez pauvre fou"</label><input id="fourthAttack" type="button" value="Fuir"/>
+               <label>Inflige 10 points de dégât</label><input id="inputFirstAttack" type="button" value="Attaquer"/>
+               <label>Vous rends 5 PV</label><input id="inputSecondAttack" type="button" value="Soin"/>
+               <label>"Fuyez pauvre fou"</label><input id="inputThirdAttack" type="button" value="Fuir"/>
            </form>
        </section>
     </main>
